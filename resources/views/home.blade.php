@@ -3,7 +3,12 @@
 
 @section('content')
 
-<h1>dajjjeeee</h1>
+
+
+    <div class="row-top d-flex">
+      <h1> sono nuovo home</h1>
+    </div>
+
 
 
 @endsection
