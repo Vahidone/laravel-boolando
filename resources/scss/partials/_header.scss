@@ -22,6 +22,12 @@ header {
   }
 }
 
+.active {
+    text-decoration: underline;
+    text-underline-offset: 7px;
+    color: lighten($link-color, 70%);
+}
+
 li {
   display: inline-block;
   margin-right: 10px;
@@ -29,9 +35,12 @@ li {
     color: $link-color;
     text-transform: capitalize;
     text-decoration: none;
-    &:hover {
+    &:hover
+    {
       color: lighten($link-color, 70%);
       text-decoration: underline;
+      text-underline-offset: 7px;
     }
+
   }
 }
