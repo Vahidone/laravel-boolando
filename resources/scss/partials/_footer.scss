@@ -1,0 +1,59 @@
+
+@import './_variables';
+
+footer {
+    width: 100%;
+    height: 100px;
+    background-color: $footer-bg-color;
+    .container-csm {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      .box-left {
+        width: 500px;
+        height: 80%;
+        margin-top: auto;
+        margin-bottom: auto;
+        .boolando {
+          font-size: 20px;
+          font-weight: bold;
+          color: white;
+          margin-top: 10px;
+          margin-bottom: 10px;
+        }
+        .info ul {
+          flex-direction: row;
+          display: flex;
+          gap: 10px;
+          padding: 0;
+          a {
+            font-size: 13px;
+            color: white;
+          }
+        }
+      }
+      .box-right {
+        width: 500px;
+        height: 80%;
+        display: flex;
+        flex-direction: column;
+        row-gap: 10px;
+        justify-content: space-around;
+        align-items: end;
+        .trovaci {
+          margin-right: 10px;
+          color: white;
+        }
+        ul {
+          display: flex;
+          flex-direction: row;
+          gap: 3px;
+          a {
+            margin-left: 10px;
+            color: $link-color;
+            font-size: 20px;
+          }
+        }
+      }
+    }
+  }
