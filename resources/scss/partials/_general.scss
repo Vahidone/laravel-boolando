@@ -1,0 +1,35 @@
+@import './_variables';
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: $body-font;
+  background-color: $body-bg-color;
+}
+
+.container-csm {
+  width: $container-width;
+  height: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* all HOVER  */
+
+.card .replace {
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: 0;
+}
+.card .replace:hover {
+  opacity: 1;
+}
+
+.card .heart:hover {
+  color: red;
+}
