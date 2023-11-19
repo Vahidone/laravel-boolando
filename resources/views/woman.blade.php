@@ -3,15 +3,10 @@
 
 @section('content')
 
-
-
-    <div class="row-top d-flex">
-      <h1 class="text-success"> Pagina dei prodotti per DONNA </h1>
-    </div>
-
-
+   <h1 class="text-success"> Pagina dei prodotti per DONNA </h1>
 
 @endsection
+
 
 @section('title')
     | Woman
