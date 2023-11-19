@@ -5,8 +5,9 @@
 
 <header>
     <div class="container-csm">
+
       <!-- MENU di sinistra del header  -->
-      <div class="menu">
+
         <ul>
 
             @foreach ($header_menu_category as $category)
@@ -14,12 +15,10 @@
 
             @endforeach
 
-
-
-
         </ul>
+
         <!-- LOGO del header  -->
-      </div>
+
       <div class="logo">
         <img src="/img/boolean-logo.png" alt="" />
       </div>

@@ -7,14 +7,16 @@ header {
   box-shadow: 0 1px 10px grey;
   .container-csm {
     display: flex;
-    align-items: center;
+    justify-content: space-between;
+    align-items: start;
+    line-height: 70px;
   }
 }
 
 .logo {
-  width: 120px;
+  width: 130px;
   height: 25px;
-  margin: 25px auto;
+  margin: 0px auto;
   img {
     width: 100%;
     height: 100%;
