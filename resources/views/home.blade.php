@@ -22,7 +22,7 @@
                     @foreach ($item['badges'] as $badge)
                         @if ($badge['type'] === 'tag' && isset($badge['type']))
                             <span class="value">{{ $badge['value'] }}</span>
-                        @elseif ($badge['type'] === 'discount' && isset($badge['type']))
+                        @elseif ($badge['type'] === 'discount' && isset($item['badges']))
                             <span class="range-discount">{{ $badge['value'] }}</span>
                         @endif
                     @endforeach

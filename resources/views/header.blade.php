@@ -8,6 +8,7 @@
       <!-- MENU di sinistra del header  -->
       <div class="menu">
         <ul>
+
             @foreach ($header_menu_category as $category)
             <li> <a class="{{ Route::currentRouteName() == $category['name'] ? 'active' : '' }}" href="{{ route($category['name'])}}">{{ $category['text'] }}</a> </li>
 
@@ -24,13 +25,13 @@
       </div>
 
 
-      <!-- LOGIN del header  -->
+      <!-- menu LOGIN del header  -->
       <div class="login">
         <ul>
             @foreach($header_menu_login as $item)
             <li>
                 <a href="{{ route($item['name']) }}">
-                    <i class="{{ $item['icona'] }}"></i>
+                   <i class="{{ $item['text'] }}"></i>
                 </a>
            </li>
             @endforeach

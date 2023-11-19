@@ -27,20 +27,18 @@
         "header_menu_login" => [
             [
                 "name" => "home",
-                "icona" => "fa-regular fa-user"
+                "text" => "fa-regular fa-user"
             ],
             [
                 "name" => "home",
-                "icona" => "fa-regular fa-heart"
+                "text" => "fa-regular fa-heart"
             ],
             [
                 "name" => "home",
-                "icona" => "fa-solid fa-bag-shopping"
+                "text" => "fa-solid fa-shopping-bag"
             ],
-
-
-
         ],
+
 
         // array per il menu di info nel footer
         "footer_menu_info" => [
@@ -65,23 +63,23 @@
             "footer_menu_socials" => [
                 [
                     "name" => "home",
-                    "text" => "fa-square-twitter"
+                    "text" => "fa-brands fa-square-twitter"
                 ],
                 [
                     "name" => "home",
-                    "text" => "fa-square-facebook"
+                    "text" => "fa-brands fa-square-facebook"
                 ],
                 [
                     "name" => "home",
-                    "text" => "fa-square-instagram"
+                    "text" => "fa-brands fa-square-instagram"
                 ],
                 [
                     "name" => "home",
-                    "text" => "fa-square-pinterest"
+                    "text" => "fa-brands fa-square-pinterest"
                 ],
                 [
                     "name" => "home",
-                    "text" => "fa-square-youtube"
+                    "text" => "fa-brands fa-square-youtube"
                 ],
 
 

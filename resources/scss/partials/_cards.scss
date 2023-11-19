@@ -1,7 +1,10 @@
 
 .cards-wrapper {
-    width: 1400px;
+    width: 90%;
+    max-width: 1400px;
+    margin: 0 auto;
     display: flex;
+    justify-content: center;
     flex-direction: row;
     flex-wrap: wrap;
 }
