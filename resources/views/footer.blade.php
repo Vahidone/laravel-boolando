@@ -1,12 +1,21 @@
+@php
+    $footer_menu_info = config('menues.footer_menu_info');
+    $footer_menu_socials = config('menues.footer_menu_socials');
+@endphp
+
 <footer>
     <div class="container-csm">
       <div class="box-left">
         <div class="boolando">Boolando s.r.l</div>
         <div class="info">
           <ul>
-            <li><a href="#">gli info</a></li>
-            <li><a href="#">gli info</a></li>
-            <li><a href="#">gli info</a></li>
+            @foreach ($footer_menu_info as $info )
+
+            <li><a href="{{route($info['name'])}}">{{$info['text']}}</a></li>
+
+            @endforeach
+
+
           </ul>
         </div>
       </div>
@@ -18,11 +27,13 @@
         <div class="social">
           <ul>
             <li>
-              <a>i social</a>
-              <a>i social</a>
-              <a>i social</a>
-              <a>i social</a>
-              <a>i social</a>
+                @foreach ($footer_menu_socials as $social)
+
+                <a href="{{ route($social['name'])}}"><i class="{{$social['text']}}"></i></a>
+
+                @endforeach
+
+
             </li>
           </ul>
         </div>

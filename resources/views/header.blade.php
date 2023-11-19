@@ -1,13 +1,21 @@
+@php
+    $header_menu_category = config('menues.header_menu_category');
+    $header_menu_login = config('menues.header_menu_login');
+@endphp
+
 <header>
     <div class="container-csm">
       <!-- MENU di sinistra del header  -->
       <div class="menu">
         <ul>
-          <li>
-            <a href="#">categorie</a>
-            <a href="#">categorie</a>
-            <a href="#">categorie</a>
-          </li>
+            @foreach ($header_menu_category as $category)
+            <li> <a class="{{ Route::currentRouteName() == $category['name'] ? 'active' : '' }}" href="{{ route($category['name'])}}">{{ $category['text'] }}</a> </li>
+
+            @endforeach
+
+
+
+
         </ul>
         <!-- LOGO del header  -->
       </div>
@@ -19,11 +27,13 @@
       <!-- LOGIN del header  -->
       <div class="login">
         <ul>
-          <li>
-            <a href="#">i vari login</a>
-            <a href="#">i vari login</a>
-            <a href="#">i vari login</a>
-          </li>
+            @foreach($header_menu_login as $item)
+            <li>
+                <a href="{{ route($item['name']) }}">
+                    <i class="{{ $item['icona'] }}"></i>
+                </a>
+           </li>
+            @endforeach
         </ul>
       </div>
     </div>

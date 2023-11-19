@@ -15,7 +15,8 @@
 <body>
     @include('header')
 
-    <main class="container-csm d-flex">
+
+    <main class="container-csm">
 
         @yield('content')
 
