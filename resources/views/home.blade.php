@@ -10,7 +10,7 @@
 
      <div class="cards-wrapper">
         @foreach ($productsCards as $item)
-        <div class="card m-1">
+        <div class="card">
 
                 <img class="first" src="/img/{{ $item['frontImage']}}" alt="{{$item['name']}}">
                 <img class="second"  src="/img/{{ $item['backImage']}}" alt="{{$item['name']}}">
