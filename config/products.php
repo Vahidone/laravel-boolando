@@ -83,12 +83,12 @@ return [
     "isInFavorites" => true,
     "badges" => [
       [
-        "type" => "tag",
-        "value" => "Sostenibilità"
+        "type" => "",
+        "value" => ""
       ],
       [
-        "type" => "discount",
-        "value" => "-50%"
+        "type" => "",
+        "value" => ""
       ]
     ]
   ],
