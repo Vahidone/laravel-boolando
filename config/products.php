@@ -80,7 +80,6 @@ return [
     "brand" => "Maya Deluxe",
     "name" => "Stripe Bodice",
     "price" => 99.99,
-    "firstPrice" => '',
     "isInFavorites" => true,
     "badges" => [
       [
@@ -100,7 +99,6 @@ return [
     "brand" => "Esprit",
     "name" => "Maglione - Black",
     "price" => 29.99,
-    "firstPrice" => '',
     "isInFavorites" => true,
     "badges" => [
       [

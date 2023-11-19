@@ -33,7 +33,10 @@
                 <span class="brand">{{ $item['brand'] }}</span>
                 <h4 class="product-name">{{ $item['name'] }}</h4>
                 <span class="price">{{ $item['price'] }} €</span>
-                <span class="discount">{{$item['firstPrice']}} €</span>
+                @if (isset($item['firstPrice']))
+                    <span class="discount">{{$item['firstPrice']}} €</span>
+                @endif
+
             </div>
 
         </div>
