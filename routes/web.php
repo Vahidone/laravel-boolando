@@ -22,9 +22,3 @@ Route::get('/kids', function () {
 })->name('kids');
 
 
-Route::get('/products', function () {
-
-    $products = config('products');
-
-    return view('products', compact('products'));
-})->name('products');
