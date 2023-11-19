@@ -20,7 +20,7 @@
 </head>
 
 <body>
-    @include('header')
+    @include('partials.header')
 
 
     <main class="d-flex justify-content-center">
@@ -30,7 +30,7 @@
     </main>
 
 
-    @include('footer')
+    @include('partials.footer')
 
 </body>
 
