@@ -6,7 +6,7 @@
 
 
     <div class="row-top d-flex">
-      <h1> sono nuovo MAN</h1>
+      <h1> Pagina dei prodotti per UOMO</h1>
     </div>
 
 

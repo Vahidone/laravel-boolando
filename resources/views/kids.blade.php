@@ -6,7 +6,7 @@
 
 
     <div class="row-top d-flex">
-      <h1> sono nuovo KIDS</h1>
+      <h1> Pagina dei prodotti per BAMBINI</h1>
     </div>
 
 
