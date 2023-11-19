@@ -32,8 +32,8 @@
             <div class="product-details">
                 <span class="brand">{{ $item['brand'] }}</span>
                 <h4 class="product-name">{{ $item['name'] }}</h4>
-                <span class="price">{{ $item['price'] }}</span>
-                <span class="discount">discount</span>
+                <span class="price">{{ $item['price'] }} €</span>
+                <span class="discount">{{$item['firstPrice']}} €</span>
             </div>
 
         </div>

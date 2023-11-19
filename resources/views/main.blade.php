@@ -16,7 +16,7 @@
     @include('header')
 
 
-    <main class="container-csm">
+    <main class="d-flex justify-content-center">
 
         @yield('content')
 
