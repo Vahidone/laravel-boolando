@@ -39,18 +39,20 @@
 
     .product-details {
       width: 100%;
+      padding-left: 10px;
 
       .brand, .product-name {
         display: block;
-        font-size: .8rem;
+        font-size: .9rem;
+        font-weight: bold;
       }
       .price {
-        font-size: .7rem;
+        font-size: .9rem;
         font-weight: 600;
         color: red;
       }
       .discount {
-        font-size: .7rem;
+        font-size: .9rem;
         text-decoration: line-through;
       }
     }
