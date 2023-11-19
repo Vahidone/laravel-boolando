@@ -50,3 +50,7 @@
 
 
 @endsection
+
+@section('title')
+    | Home
+@endsection
